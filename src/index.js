@@ -1,5 +1,3 @@
-import throttle from 'lodash/throttle';
-
-const a = 'aaa'
-
-throttle(a)
+const number = 42
+localStorage.setItem('number', number)
+console.log(localStorage.getItem('number'))
